@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI Design Principles | Rayan Fiver Blog</title>
+  <meta name="description" content="Learn essential UI design principles including hierarchy, contrast, and typography." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Rayan Fiver</a>
+      <nav class="main-nav">
+        <a href="index.html#articles">Articles</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article-main">
+    <div class="article-wrap">
+      <a href="index.html#articles" class="back-link">← Back to articles</a>
+
+      <header class="article-header">
+        <span class="badge">Design Principles</span>
+        <h1>Essential UI Design Principles</h1>
+        <p class="article-meta">By Rayan Fiver • 18 Apr 2026 • 10 min read</p>
+        <p class="article-intro">
+          Good UI design is built on timeless principles. Understanding and applying these fundamentals will dramatically improve the quality of your designs and create more intuitive user experiences.
+        </p>
+      </header>
+
+      <article class="article-content">
+        <h2>Visual Hierarchy</h2>
+        <p>
+          Visual hierarchy guides users through your interface by establishing what's most important. It's created through strategic use of size, color, contrast, spacing, and typography.
+        </p>
+
+        <h3>Implementing Hierarchy</h3>
+        <ul>
+          <li>Use size to emphasize importance</li>
+          <li>Apply contrasting colors to draw attention</li>
+          <li>Leverage whitespace to isolate elements</li>
+          <li>Use typography weight and size strategically</li>
+        </ul>
+
+        <h2>Contrast and Readability</h2>
+        <p>
+          Contrast is crucial for both aesthetics and accessibility. Maintain at least 4.5:1 contrast ratio for normal text to ensure readability for everyone, including those with visual impairments.
+        </p>
+
+        <h2>Alignment and Spacing</h2>
+        <p>
+          Consistent alignment creates order and makes interfaces feel polished. Use a spacing scale to maintain visual rhythm throughout your designs.
+        </p>
+
+        <h2>Color Psychology</h2>
+        <p>
+          Colors evoke emotions and influence behavior. Choose a palette that supports your design goals while maintaining accessibility standards.
+        </p>
+
+        <h2>Whitespace: The Unsung Hero</h2>
+        <p>
+          Whitespace reduces cognitive load and helps users focus. It's not wasted space—it's a powerful design tool. Use it strategically to create elegant, readable designs.
+        </p>
+
+        <h2>Consistency and Patterns</h2>
+        <p>
+          Consistency reduces the learning curve. Establish patterns and maintain them throughout your interface. Create design systems to ensure uniformity across all pages.
+        </p>
+
+        <h2>Key Takeaways</h2>
+        <ul>
+          <li>Visual hierarchy guides user attention</li>
+          <li>Contrast is essential for accessibility</li>
+          <li>Consistency breeds user confidence</li>
+          <li>Whitespace is your design ally</li>
+          <li>Typography is a powerful design tool</li>
+        </ul>
+      </article>
+
+      <section class="related-posts">
+        <h3>Related Articles</h3>
+        <div class="related-links">
+          <a href="post1.html">Responsive Web Design</a>
+          <a href="post3.html">Modern Web Development Tools</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Rayan Fiver's Blog</p>
+      <div class="social-links">
+        <a href="https://github.com/rayanfiver95-design" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+      <div class="quick-links"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
